@@ -1,0 +1,46 @@
+.navbar-default .navbar-nav > .active > a {
+  color: #E13A63;
+  background: #202;
+}
+
+.navbar-default .navbar-nav > .active > a:hover {
+	background: #202;
+}
+
+h1, h4 {
+	color: #E13A63;
+}
+
+@keyframes slide {
+	0% {position:relative; left: -100px; opacity: 0}
+	100% {position:relative; left: 0px; opacity: 1}
+}
+
+.employment-history, #skills {
+	animation-name: slide;
+	animation-duration: 3s;
+}
+
+#skills li:hover {
+	color: #E13A63;
+}
+
+.divide {
+	margin-top: 30px;
+}
+
+.linker h1 {
+	display:inline;
+}
+
+.linker a {
+	display:none;
+}
+
+.linker:hover a {
+	display: inline-block;
+	position: relative;
+	bottom: 6px;
+	margin-bottom:0;
+	padding-bottom: 0;
+}
